@@ -33,13 +33,13 @@ function generatePalette() {
     let pie2 = document.querySelector('#canvas4').getContext('2d');
   
     const daysOfWeek = [
-      'Sunday',
       'Monday',
       'Tuesday',
       'Wednesday',
       'Thursday',
       'Friday',
       'Saturday',
+      'Sunday',
     ];
   
     const labels = data.map(({ day }) => {
